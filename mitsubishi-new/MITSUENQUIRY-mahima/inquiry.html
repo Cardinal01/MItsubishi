@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inquiry</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<!--Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+      <a class="navbar-brand" href="#"> <img class="logo2" src="logo2.jpg" alt=""> </a>
+      
+
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active"  href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  href="product.html">PRODUCT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  href="company.html">COMPANY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  href="inquiry.html"><span>INQUIRY</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <a class="navbar-brand" href="#"> <img class="logo" src="logo.jpg" alt=""> </a>
+      </nav>
+<section id="container">
+<div class="gap"></div>
+<img src="contact.jfif" alt="">
+<div id="main-full-width">
+<div class="gap"></div>
+<h2 class="sub-title">Product Enquires</h2>
+<p>Product Selected: <strong>
+Air Conditioners</strong></p>
+<p>Please provide the following information (in English) and read the 
+personal information disclosure statement at the bottom of the page.</p>
+<p>If you agree with the statement, please click the "Submit" button.</p>
+<div class="single-border"></div>
+<div class="gap"></div>
+<form name="enq-form" id="enq-form" action="" method="post">
+<input type="hidden" name="product" value="Air Conditioners">
+<div style="display:block; overflow:hidden;">
+<label>Type of enquiry</label><br>
+<div style="float:left; margin: -20px 0 0; width:840px; position:relative;">
+<input type="radio" name="Type_of_enquiry" value="SAPS">Service or After-purchase Service Query<br>
+<input type="radio" name="Type_of_enquiry" value="GE">General Enquiries<br>
+</div>
+</div>
+<p><label>Comments</label><textarea cols="65" rows="10" name="comments" id="comments"></textarea></p>
+<div id="commentsSection" style="display:none;">
+</div>
+<p><label>First Name</label><input name="name" type="text" id="name"></p>
+<p><label>Last Name &nbsp;<span style="color:red;">*</span> </label><input name="lastname" type="text" id="lastname" required></p>
+<p class="queryA" style="display:none;"><label>Model Number&nbsp;<span style="color:red;">*</span></label><input name="model" type="text" id="model"></p>
+<p class="queryA" style="display:none;margin-left: 137px">
+<input type="checkbox" name="unit_type" class="unit_types" value="ODU">Sample Outdoor unit sticker
+<input type="checkbox" name="unit_type" class="unit_types" value="IDU">Sample Indoor unit sticker
+</p>
+<div class="Unit_image" style="margin-left: 137px;"></div>
+<p class="queryA" style="display:none;"><label>Serial Number</label><input name="serial_number" type="text" id="serial_number"></p>
+<p class="queryA" style="display:none;"><label>Date of purchase&nbsp;<span style="color:red;">*</span></label><input name="dop" type="text" id="dop"></p>
+<p class="queryA" style="display:none;"><label>Dealer Name&nbsp;<span style="color:red;">*</span></label><input name="dealer_name" type="text" id="dealer_name"></p>
+<p class="queryA" style="display:none;"><label>Place&nbsp;<span style="color:red;">*</span></label><input name="place" type="text" id="place"></p>
+<p><label>Company</label><input name="company" type="text" id="company"></p>
+<p><label>Address </label><input name="address" type="text" id="address"></p>
+<p><label>City &nbsp;<span style="color:red;">*</span> </label><input name="city" type="text" id="city" required></p>
+<p><label>State &nbsp;<span style="color:red;">*</span> </label>
+<select name="state" id="state" required>
+<option value="" selected="selected">Select</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Orissa">Orissa</option>
+                    <option value="Puducherry">Puducherry</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="West Bengal">West Bengal</option>
+</select>
+</p>
+<p><label>Contact No. &nbsp;<span style="color:red;">*</span> </label><input name="phone" type="text" id="phone" required></p>
+<p><label>E-mail &nbsp;<span style="color:red;">*</span> </label><input name="email" type="text" id="email" required></p>
+<div class="gap"></div>
+<p class="anyother" style="display:none;"><textarea rows="4" cols="4" name="infotext"></textarea></p>
+<div class="gap"></div>
+<input type="hidden" name="handle" value="LE">
+<p><center><input type="submit" name="step2" value="Submit"></center></p>
+</form>
+<div class="gap"></div>
+<div class="gap"></div>
+<div class="gap"></div>
+</div>
+<div class="gap"></div>
+</section>
+<!--[Footer]-->
+<footer>
+              
+             <div class="foot">
+                <div class="part1">
+                <ul class="footer-links-1">
+                  <li><a  href="index.html">HOME</a></li>
+                  <li><a href="product.html">PRODUCT</a></li>
+                  <li><a href="company.html">COMPANY</a></li>
+                  <li><a href="#">INQUIRY</a></li>
+                </ul>
+                </div>
+  
+                <div class="part2">
+                <ul class="footer-links-2">
+                    <li><a target="_blank" href="#">PRIVACY</a></li>
+                    <li><a target="_blank" href="#">TERMS OF USE</a></li>
+                    <li><a target="_blank" href="#">ABOUT</a></li>
+                    <li><a target="_blank" href="#">CONTACT</a></li>
+                  </ul>
+               </div>
+  
+               <div class="part3">
+                  <h5 class="office">OFFICE</h5>
+                      
+                  <i class="material-icons"> </i>
+                  <p style="letter-spacing: 1px" class="address">Amrytzari -106,Ram Shevalkar<br>
+                                     Business Park Yavatmal Road,<br>
+                                     WANI 445 304,Dist. Yavatmal<br>
+                                     Email - Dew.kartik@gmail.com
+                  </p>
+               
+                </div>
+  
+                  <div class="part4">
+                      <h5 class="follow">FOLLOW US</h5>
+                    <a class="facebook" target="_blank" href="https://www.facebook.com/pages/category/Product-Service/Ekdant-Enterprises-445347419554596/"><img src="facebook.png" alt=""></a>
+
+                    <a class="whatsaap" target="_blank" href="https://api.whatsapp.com/send?phone=919860373745"><img src="whatsapp.png" alt=""></a>
+  
+  
+                  </div>
+
+             </div>
+
+            </footer>
+            <div class="copyright">
+              <p>&copy;Copyright 2019 VanaSudha Technologies Pvt. Ltd.All Rights Reserved</p>
+            </div>
+
+<!--[/Footer]-->
+</body>
+</html>
