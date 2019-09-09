@@ -200,15 +200,15 @@ section
 
 .large_b
 {
-    min-height: 25vh;
+    min-height: auto;
   
   
 }
 
 .btn-info
 {
-    min-width: 48vw;
-    min-height: 25vh;
+    min-width: 20vw;
+    min-height: 15vh;
     border-radius: 0px;
     background-color: rgb(73,180,203);
     text-transform: uppercase;
@@ -231,7 +231,7 @@ section
    
     background-image: linear-gradient(to right ,rgba(214,17,17,0.89),rgba(235,74,38,0.84)),url("room.jpg");
     background-position: right;
-    background-size: cover;
+            background-size: cover;
     background-repeat: no-repeat; 
 }
 
@@ -246,7 +246,7 @@ section
     text-align: center;
     padding-top: 10%;
     padding-bottom: 2%;
-    font-size: 3em;
+    font-size: 5.4vh;
     font-weight: 700;
     line-height: 0.7em;
     
