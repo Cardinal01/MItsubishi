@@ -43,8 +43,7 @@ nav ul li a span
   /* MAIN */
 
 .main-content{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding: 0 1em;
 }
 .index-banner{
     width: 100%;
