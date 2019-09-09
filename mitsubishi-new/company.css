@@ -246,7 +246,7 @@ section
     text-align: center;
     padding-top: 10%;
     padding-bottom: 2%;
-    font-size: 5.4vh;
+    font-size: 5.0vh;
     font-weight: 700;
     line-height: 0.7em;
     
@@ -299,7 +299,8 @@ strong
 {
     .phone_div
     {
-        margin-left: 19vw;
+        margin-left: 19vw; 
+       
     }
 }
 
@@ -338,6 +339,12 @@ strong
     .loc_sec
     {
         min-height: 65em;
+    }
+
+    .phone_div
+    {
+        background-size: contain;
+        margin-left: 6vw;
     }
 }
 
